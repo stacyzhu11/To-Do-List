@@ -1,0 +1,133 @@
+#main{
+    padding: 35px;
+    margin: auto;
+    background-color:rgb(194, 240, 255);
+    width: 400px;
+    height: 650px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3); 
+}
+
+h1,h2{
+    font-family: 'Quicksand', sans-serif;    
+    color:black;
+    text-align: center;
+}
+
+h2{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+button{
+    padding: 0px;
+    border: none;
+    background: none;
+}
+
+.todo-button{
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.todo-button:hover{
+    color:#779ecb;
+}
+
+form {
+    color: white;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0.5rem;
+    width: auto;
+    height: auto;
+    padding: 10px;
+
+}
+
+.todo-input{
+    border: none;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0.5rem;
+    width:auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color:black;
+    background-color:white
+}
+
+ul{
+    list-style-type: none;
+    float: left;
+}
+
+.todoDiv{
+    border-radius: 5px;
+    margin: 0.5rem;
+    width:18rem;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color:black;
+    background-color:white
+}
+
+.todo-list li, .completed-task li{
+    display: flex;
+    flex: 1;
+    padding: 0.38rem;
+}
+
+.todo-list, .completed-task{
+    margin: 0px;
+}
+
+.todo-container{
+    margin: auto;
+    width: 400px;
+    height: 350px;
+    overflow: auto;
+    align-items: left;
+    justify-content: center;
+}
+
+.trash-btn{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.trash-btn:hover{
+    color: #ff6961;
+}
+
+.fa-trash{
+    pointer-events: none;
+}
+
+.checked-btn{
+    font-size: 1rem;
+    padding:0.3rem;
+}
+.checked-btn:hover{
+    color: rgb(194, 240, 255);
+}
+
+.checkedList {
+    text-decoration: line-through;
+}
+
+.fa-circle{
+    pointer-events: none;
+}
